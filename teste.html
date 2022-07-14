@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="styleTeste.css">
+</head>
+<body>
+    <button class="btnOpenModal" onclick="openModal()">Open Modal</button>
+
+    <div class="modal-container">
+        <div class="modal">
+                <h4 class="title">IMC</h4>
+                    <input type="number" class="input1" id="altura" size="12" maxlength="3" placeholder="Altura em cm"><br><br>
+                    <input type="number" class="input2" autocomplete="off" maxlength="5" id="peso" size="12" 
+                    placeholder="Peso">
+                    <br>
+                    <input type="button" class="btn" value="Calcular">
+                    <div class="inn" id="texto1"> </div>
+                </form>
+            </div>
+            <div class="btns">
+                <button class="btnOK" onclick="closeModal()">OK</button>
+                <button class="btnClose" onclick="closeModal()">Close</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
